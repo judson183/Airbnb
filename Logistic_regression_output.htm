@@ -1,0 +1,46 @@
+
+<table style="text-align:center"><caption><strong>Logistic Regression Models of factors impacting if a person is a superhost</strong></caption>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="8"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="8" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>host_is_superhost</td><td colspan="7">host_is_superhost</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">review_scores_value</td><td>2.311<sup>***</sup></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.098)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">review_scores_value</td><td></td><td>2.367<sup>***</sup></td><td>2.403<sup>***</sup></td><td>2.359<sup>***</sup></td><td>0.196</td><td>0.196</td><td>0.196</td><td>0.200<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.107)</td><td>(0.121)</td><td>(0.121)</td><td>(0.120)</td><td>(0.120)</td><td>(0.120)</td><td>(0.121)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">host_response_rate</td><td></td><td>0.098<sup>***</sup></td><td>0.087<sup>***</sup></td><td>0.087<sup>***</sup></td><td>0.083<sup>***</sup></td><td>0.083<sup>***</sup></td><td>0.083<sup>***</sup></td><td>0.082<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.009)</td><td>(0.009)</td><td>(0.008)</td><td>(0.008)</td><td>(0.008)</td><td>(0.008)</td><td>(0.008)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">number_of_reviews</td><td></td><td></td><td>0.005<sup>***</sup></td><td>0.005<sup>***</sup></td><td>0.006<sup>***</sup></td><td>0.006<sup>***</sup></td><td>0.006<sup>***</sup></td><td>0.006<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.0003)</td><td>(0.0003)</td><td>(0.0003)</td><td>(0.0003)</td><td>(0.0003)</td><td>(0.0003)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">beds</td><td></td><td></td><td></td><td>-0.053<sup>***</sup></td><td>-0.038<sup>***</sup></td><td>-0.043<sup>*</sup></td><td>-0.043<sup>*</sup></td><td>-0.044<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.014)</td><td>(0.014)</td><td>(0.023)</td><td>(0.023)</td><td>(0.023)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">review_scores_rating</td><td></td><td></td><td></td><td></td><td>3.516<sup>***</sup></td><td>3.515<sup>***</sup></td><td>3.514<sup>***</sup></td><td>3.518<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.178)</td><td>(0.178)</td><td>(0.178)</td><td>(0.179)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">bedrooms</td><td></td><td></td><td></td><td></td><td></td><td>0.012</td><td>0.012</td><td>0.012</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td>(0.039)</td><td>(0.039)</td><td>(0.039)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">reviews_per_month</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.002</td><td>-0.004</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.016)</td><td>(0.017)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">host_response_time</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.027</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.049)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-11.780<sup>***</sup></td><td>-21.630<sup>***</sup></td><td>-21.039<sup>***</sup></td><td>-20.668<sup>***</sup></td><td>-26.976<sup>***</sup></td><td>-26.979<sup>***</sup></td><td>-26.972<sup>***</sup></td><td>-26.915<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.456)</td><td>(1.039)</td><td>(1.015)</td><td>(1.023)</td><td>(1.155)</td><td>(1.155)</td><td>(1.156)</td><td>(1.156)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>10,906</td><td>10,906</td><td>10,906</td><td>10,906</td><td>10,906</td><td>10,906</td><td>10,906</td><td>10,906</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-5,375.983</td><td>-5,130.512</td><td>-4,948.905</td><td>-4,941.413</td><td>-4,679.809</td><td>-4,679.767</td><td>-4,679.754</td><td>-4,679.601</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>10,755.970</td><td>10,267.020</td><td>9,905.809</td><td>9,892.826</td><td>9,371.618</td><td>9,373.534</td><td>9,375.508</td><td>9,377.202</td></tr>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="8" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+
+<table style="text-align:center"><caption><strong>Logistic Regression Models of factors impacting if a person is a superhost</strong></caption>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">(Intercept)</td><td>review_scores_value</td><td>host_response_rate</td><td>number_of_reviews</td><td>beds</td><td>review_scores_rating</td><td>bedrooms</td><td>reviews_per_month</td><td>host_response_time</td></tr>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">0</td><td>1.221</td><td>1.086</td><td>1.006</td><td>0.957</td><td>33.712</td><td>1.013</td><td>0.996</td><td>0.973</td></tr>
+<tr><td colspan="9" style="border-bottom: 1px solid black"></td></tr></table>
